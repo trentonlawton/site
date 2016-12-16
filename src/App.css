@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+.App {
+  text-align: center;
+}
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.post{
+
+
+width: 40%;
+height: 40%;
+margin: 0% 5%;
+}
+.postImg{
+height: 100%;
+  width: 100%;
+
+
+}
+.postList{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+span{
+font-weight: 100;
+}
+
+
+@media (max-width: 500px)  {
+  .post{
+height: 100%;
+width: 100%;
+  }
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}

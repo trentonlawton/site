@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav{
+  position: fixed;
+  background-color: #333;
+display: flex;
+color: #fff;
+  opacity: .8;
+}
+li{
+  text-align: center;
+  list-style: none;
+padding-right: 3px;
+}
+
+a{
+    color: #fefefe;
+  text-decoration: none;
+  color:#fefefe;
+
+
+}
+a:hover{
+  color: pink;
+}
